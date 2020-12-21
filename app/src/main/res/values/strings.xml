@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">EsercitazioneBonus</string>
+
+    <string name="activity_login_name"><b>Login</b></string>
+    <string name="activity_registrazione_name"><b>Registrazione</b></string>
+    <string name="activity_home_name"><b>Home</b></string>
+    <string name="activity_modifica_password_name"><b>Modifica password</b></string>
+    <string name="activity_gestisci_utenti_name"><b>Gestisci utenti</b></string>
+
+    <string name="button_accedi_name">Accedi</string>
+    <string name="button_home_name">Home</string>
+    <string name="button_registrati_name">Registrati</string>
+    <string name="button_gestisci_utenti_name">Gestisci utenti</string>
+    <string name="button_logout_name">Logout</string>
+    <string name="button_aggiorna_password_name">Aggiorna password</string>
+
+    <string name="error_credenziali_non_valide_name"><b>Credenziali non valide</b></string>
+    <string name="error_username_non_valido_name"><b>Username non valido</b></string>
+
+    <string name="link_nuovo_utente_registrati_name"><u>Nuovo utente? Registrati</u></string>
+    <string name="link_modifica_password_name"><u>Modifica password</u></string>
+
+    <string name="alert_dialog_cancel">Annulla</string>
+    <string name="alert_dialog_ok">OK</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="conferma_password">Conferma password</string>
+    <string name="citta_di_provenienza">Città di provenienza</string>
+    <string name="data_di_nascita">Data di nascita</string>
+    <string name="benvenuto">Benvenuto</string>
+    <string name="i_tuoi_dati">I tuoi dati</string>
+    <string name="admin">Admin \u2713</string>
+    <string name="nuova_password">Nuova password</string>
+
+    <string name="cerca_utente">&#x1F50D; Cerca utente </string>
+    <string name="rendi_admin">Rendi Admin</string>
+</resources>

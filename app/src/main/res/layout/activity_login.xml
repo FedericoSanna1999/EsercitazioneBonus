@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/activity_login_name"
+                android:textColor="@color/blue"
+                android:textSize="30sp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp"/>
+
+            <Button
+                app:backgroundTint="@color/red"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/error_credenziali_non_valide"
+                android:textAllCaps="false"
+                android:text="@string/error_credenziali_non_valide_name"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:enabled="false"
+                android:visibility="gone"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp"/>
+
+            <EditText
+                app:backgroundTint="@color/blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/username"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray"
+                android:textSize="25sp"
+                android:hint="@string/username"
+                android:autofillHints="@string/username"
+                android:inputType="text"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="60dp"/>
+
+            <EditText
+                app:backgroundTint="@color/blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/password"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray"
+                android:textSize="25sp"
+                android:hint="@string/password"
+                android:autofillHints="@string/password"
+                android:inputType="textPassword"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="60dp"/>
+
+            <Button
+                app:backgroundTint="@color/blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_accedi"
+                android:text="@string/button_accedi_name"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="25sp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="60dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/link_nuovo_utente_registrati"
+                android:focusable="true"
+                android:clickable="true"
+                android:text="@string/link_nuovo_utente_registrati_name"
+                android:textColor="@color/blue"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".RegistrazioneActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/activity_registrazione_name"
+                android:textColor="@color/blue"
+                android:textSize="30sp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp"/>
+
+            <Button
+                app:backgroundTint="@color/red"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/error_username_non_valido"
+                android:textAllCaps="false"
+                android:text="@string/error_username_non_valido_name"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:enabled="false"
+                android:visibility="gone"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp"/>
+
+            <EditText
+                app:backgroundTint="@color/blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/username"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray"
+                android:textSize="25sp"
+                android:hint="@string/username"
+                android:autofillHints="@string/username"
+                android:inputType="text"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+            <EditText
+                app:backgroundTint="@color/blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/password"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray"
+                android:textSize="25sp"
+                android:hint="@string/password"
+                android:autofillHints="@string/password"
+                android:inputType="textPassword"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+            <EditText
+                app:backgroundTint="@color/blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/conferma_password"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray"
+                android:textSize="25sp"
+                android:hint="@string/conferma_password"
+                android:autofillHints="@string/conferma_password"
+                android:inputType="textPassword"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+            <EditText
+                app:backgroundTint="@color/blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/citta_di_provenienza"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray"
+                android:textSize="25sp"
+                android:hint="@string/citta_di_provenienza"
+                android:autofillHints="@string/citta_di_provenienza"
+                android:inputType="text"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+            <EditText
+                app:backgroundTint="@color/blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/data_di_nascita"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray"
+                android:textSize="25sp"
+                android:hint="@string/data_di_nascita"
+                android:autofillHints="@string/data_di_nascita"
+                android:inputType="date"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+            <Button
+                app:backgroundTint="@color/blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_registrati"
+                android:text="@string/button_registrati_name"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="25sp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
